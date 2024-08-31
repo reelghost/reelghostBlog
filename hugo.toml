@@ -1,0 +1,11 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'reelghost blog'
+
+
+[params]
+    dateformat = "Jan 2, 2006"
+
+[taxonomies]
+    category = "categories"
+    author = "authors"

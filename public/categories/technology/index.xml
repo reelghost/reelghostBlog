@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on reelghost blog</title>
+    <link>//localhost:1313/categories/technology/</link>
+    <description>Recent content in Technology on reelghost blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2024 10:05:09 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Impact of Artificial Intelligence on Modern Society</title>
+      <link>//localhost:1313/firstpost/</link>
+      <pubDate>Fri, 30 Aug 2024 10:05:09 +0300</pubDate>
+      <guid>//localhost:1313/firstpost/</guid>
+      <description>Artificial Intelligence (AI) is no longer a futuristic concept; it is an integral part of our daily lives. From voice-activated assistants like Siri and Alexa to complex algorithms that predict stock market trends, AI is shaping the way we interact with the world. Its rapid development over the past decade has brought about significant changes across various sectors, influencing everything from healthcare to education, and even how we conduct business.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on reelghost blog</title>
+    <link>//localhost:1313/categories/general/</link>
+    <description>Recent content in General on reelghost blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2024 10:05:09 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple JavaScript Program to Calculate Sum, Difference, and Multiplication</title>
+      <link>//localhost:1313/intropost/</link>
+      <pubDate>Fri, 30 Aug 2024 10:05:09 +0300</pubDate>
+      <guid>//localhost:1313/intropost/</guid>
+      <description>Below is a simple JavaScript code that calculates the sum, difference, and multiplication of two numbers and demonstrates launching Puppeteer in an asynchronous function.&#xA;const puppeteer = require(&amp;#39;puppeteer&amp;#39;); // Import Puppeteer // Define two numbers let number1 = 10; let number2 = 5; // Calculate the sum let sum = number1 + number2; console.log(&amp;#34;Sum: &amp;#34; + sum); // Output: 15 // Calculate the difference let difference = number1 - number2; console.</description>
+    </item>
+    <item>
+      <title>The Impact of Artificial Intelligence on Modern Society</title>
+      <link>//localhost:1313/firstpost/</link>
+      <pubDate>Fri, 30 Aug 2024 10:05:09 +0300</pubDate>
+      <guid>//localhost:1313/firstpost/</guid>
+      <description>Artificial Intelligence (AI) is no longer a futuristic concept; it is an integral part of our daily lives. From voice-activated assistants like Siri and Alexa to complex algorithms that predict stock market trends, AI is shaping the way we interact with the world. Its rapid development over the past decade has brought about significant changes across various sectors, influencing everything from healthcare to education, and even how we conduct business.</description>
+    </item>
+  </channel>
+</rss>

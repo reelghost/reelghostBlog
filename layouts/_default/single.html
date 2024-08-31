@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<section class="pt-7 text-gray-300">
+    <div class="container">
+        <div class="row justify-center">
+            <article class="">
+                {{ $image:= .Params.image }}
+                {{ if $image }}
+                    <div class="flex items-center bg-pink-300 bg-center w-[100%] h-72 mb-10 rounded-lg overflow-hidden">
+                        <img class="h-auto object-cover" src={{ $image }} alt={{ .Params.Title }}/>
+                    </div>
+                {{ end }}
+                {{/*  the title  */}}
+                <h1 class="font-bold capitalize text-3xl mb-2 font-primary">{{ .Title}}</h1>
+                <ul class="flex mb-4 gap-2 text-sm items-center font-content">
+                    <li class="flex items-center gap-1">
+                        <img class="w-6 h-6 rounded-full object-cover" src={{ .Params.avatar }} loading="lazy" alt=""/>
+                        {{ range (.GetTerms "authors")}}
+                            <a href={{ .Permalink }}>{{ .Name}}</a>
+                        {{end}}
+                    </li>
+                    {{/*  categories  */}}
+                    <li class="inline-block">
+                        {{ range (.GetTerms "categories") }}
+                            <a href={{ .Permalink }}>{{ .Name}}</a>
+                        {{ end }}
+                    </li>
+                    {{/*  publish date  */}}
+                    <li class="inline-block">
+                        <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+                    </li>
+                </ul>
+                {{/*  the content  */}}
+                <div class="mb-5 p-2 leading-1 text-base font-content">
+                    {{ .Content}}
+                </div>
+                
+            </article>
+        </div>
+    </div>
+</section>
+
+{{ end }}

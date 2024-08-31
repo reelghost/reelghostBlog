@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iha on reelghost blog</title>
+    <link>//localhost:1313/authors/iha/</link>
+    <description>Recent content in Iha on reelghost blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2024 10:05:09 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/authors/iha/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntroPost</title>
+      <link>//localhost:1313/intropost/</link>
+      <pubDate>Fri, 30 Aug 2024 10:05:09 +0300</pubDate>
+      <guid>//localhost:1313/intropost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ways to maximize profit in smaller businesses located in urban centers</title>
+      <link>//localhost:1313/firstpost/</link>
+      <pubDate>Fri, 30 Aug 2024 10:05:09 +0300</pubDate>
+      <guid>//localhost:1313/firstpost/</guid>
+      <description>this is the content</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="list">
+    {{ range .Paginator.Pages }}
+    <div class="listItem flex items-center gap-10 mb-10">
+        <img class="w-32 h-32 object-cover" src={{ .Params.image }} alt={{ .Title }} loading="lazy"/>
+        <div class="listItemTexts flex flex-col gap-1">
+            <h1 class="text-lg font-bold font-primary">
+                <a class="capitalize" href={{ .Permalink }}>{{ .Title }}</a>
+            </h1>
+            <p class="listitemdesc">{{ .Params.description }}</p>
+            <div class="listitemdetail flex items-center gap-2 text-sm">
+                <img class="w-6 h-6 rounded-full object-cover" src={{ .Params.avatar }} loading="lazy" alt=""/>
+                <span>{{ range (.GetTerms "authors")}}<a href={{ .Permalink }}>{{ .Name}}</a>{{end}}</span>
+                <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+            </div>
+            <div class="listitemcategories flex gap-2">
+                {{ range (.GetTerms "categories") }}
+                <a class="p-1 lowercase rounded-md text-sm bg-[#181818] text-[#cbd2d9]" href={{ .Permalink }}>{{ .Name }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
