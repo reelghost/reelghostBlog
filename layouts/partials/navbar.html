@@ -1,13 +1,33 @@
-<nav class="flex justify-between items-center h-20 font-primary">
-    <div class="logo text-3xl font-bold lowercase">
-        <a href="/">Reelghost</a>
+
+
+<nav class="mb-4 bg-[#0d0d0d] text-[#cbd2d9] font-primary sticky w-full z-20 top-0 start-0">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        {{/*  <img src="/images/logo.png" class="w-auto h-28 border-2" alt="reelghost">  */}}
+        <span class="self-center text-3xl font-semibold whitespace-nowrap">reelghost</span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-white bg-gray-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">Get Owner</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
     </div>
-    <div class="links flex items-center gap-3 ">
-        <a href="/">Homepage</a>
-        <a href="/categories">Categories</a>
-        <div class="searchButton p-2 rounded-lg flex items-center gap-2 bg-[#181818] text-[#cbd2d9]">
-            <svg class="w-5 h-5" viewBox="0 0 24 24" stroke="white" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11 6C13.7614 6 16 8.23858 16 11M16.6588 16.6549L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-            <span class="">Search</span>
-        </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-[#0d0d0d] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+        <li>
+          <a href="/categories/" class="block py-2 px-3 text-white rounded hover:bg-pink-800 md:hover:bg-transparent md:hover:text-pink-700 md:p-0">Categories</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-white rounded hover:bg-pink-800 md:hover:bg-transparent md:hover:text-pink-700 md:p-0">Services</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-white rounded hover:bg-pink-800 md:hover:bg-transparent md:hover:text-pink-700 md:p-0">Contact</a>
+        </li>
+      </ul>
     </div>
-</nav>
+    </div>
+  </nav>
+  

@@ -9,18 +9,18 @@
     <lastBuildDate>Fri, 30 Aug 2024 10:05:09 +0300</lastBuildDate>
     <atom:link href="//localhost:1313/authors/iha/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>IntroPost</title>
+      <title>Simple JavaScript Program to Calculate Sum, Difference, and Multiplication</title>
       <link>//localhost:1313/intropost/</link>
       <pubDate>Fri, 30 Aug 2024 10:05:09 +0300</pubDate>
       <guid>//localhost:1313/intropost/</guid>
-      <description></description>
+      <description>Below is a simple JavaScript code that calculates the sum, difference, and multiplication of two numbers and demonstrates launching Puppeteer in an asynchronous function.&#xA;const puppeteer = require(&amp;#39;puppeteer&amp;#39;); // Import Puppeteer // Define two numbers let number1 = 10; let number2 = 5; // Calculate the sum let sum = number1 + number2; console.log(&amp;#34;Sum: &amp;#34; + sum); // Output: 15 // Calculate the difference let difference = number1 - number2; console.</description>
     </item>
     <item>
-      <title>Ways to maximize profit in smaller businesses located in urban centers</title>
+      <title>The Impact of Artificial Intelligence on Modern Society</title>
       <link>//localhost:1313/firstpost/</link>
       <pubDate>Fri, 30 Aug 2024 10:05:09 +0300</pubDate>
       <guid>//localhost:1313/firstpost/</guid>
-      <description>this is the content</description>
+      <description>Artificial Intelligence (AI) is no longer a futuristic concept; it is an integral part of our daily lives. From voice-activated assistants like Siri and Alexa to complex algorithms that predict stock market trends, AI is shaping the way we interact with the world. Its rapid development over the past decade has brought about significant changes across various sectors, influencing everything from healthcare to education, and even how we conduct business.</description>
     </item>
   </channel>
 </rss>

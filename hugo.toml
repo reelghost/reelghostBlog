@@ -2,8 +2,10 @@ baseURL = ''
 languageCode = 'en-us'
 title = 'reelghost blog'
 
+paginate = 5
 
 [params]
+    description = "Iha's Blog"
     dateformat = "Jan 2, 2006"
 
 [taxonomies]
